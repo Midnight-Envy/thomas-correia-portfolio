@@ -1,12 +1,51 @@
 body {
-  background-color: #1e3a8a; /* softer blue */
+  background-color: #1e3a8a;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
-  padding-top: 100px;
+  padding: 40px 20px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 h1 {
   font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
 }
